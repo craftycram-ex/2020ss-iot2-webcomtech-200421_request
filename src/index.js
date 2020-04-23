@@ -6,6 +6,6 @@ axios({
   responseType: 'json',
 })
   .then((response) => {
-    const result = response.data;
-    console.log(result);
+    const output = response.data;
+    console.log(output);
   });
